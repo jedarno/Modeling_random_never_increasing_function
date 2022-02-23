@@ -13,14 +13,13 @@ def never_increase(b):
 
   P = np.tril(P)
   P = P.T
-  print(P)
   Q = P[:-1, :-1] #Construct Q, the transition matrix for moving between transient states
-  print(Q)
+
   #Calculate N, the matrix of the average number of visits between two transient nodes
   I = np.identity(Q.shape[0])
   N = I - Q
   N = np.linalg.inv(N)
-  print(N)
+
   return(sum(N[0,:]))
 
 
