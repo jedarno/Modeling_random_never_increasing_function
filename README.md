@@ -31,7 +31,7 @@ expected number of steps until we reach 1! Why does this work? Because we adding
 before reaching an absorbing node. Since our only absorbing node is 1, this tells us the expected number of steps before reaching 1.
 
 ## The code
-[code]()
+[code](assets/code_screenshot.png)
 ## A simple example
 
 ## Prove it?
