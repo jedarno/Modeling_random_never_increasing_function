@@ -25,13 +25,13 @@ counting down). Thus 1 is an absorbing state as it can only transition to itself
 
 ![equation](https://latex.codecogs.com/svg.image?p%20=%20%5Cbigl(%5Cbegin%7Bsmallmatrix%7D%20Q&%20%20R%5C%5C%200&%20%201%5C%5C%5Cend%7Bsmallmatrix%7D%5Cbigr))
 
-Where ![equation](https://latex.codecogs.com/svg.image?Q) is the transition matrix between transient states (Transient means not absorbing!). Each value in ![equation](https://latex.codecogs.com/svg.image?Q) is the chance of transitioning from one transient state to another. We can use this matrix to find ![equation]()
+Where ![equation](https://latex.codecogs.com/svg.image?Q) is the transition matrix between transient states (Transient means not absorbing!). Each value in ![equation](https://latex.codecogs.com/svg.image?Q) is the chance of transitioning from one transient state to another. We can use this matrix to find ![equation](https://latex.codecogs.com/svg.image?p%20=%20%5Cbigl(%5Cbegin%7Bsmallmatrix%7D%20Q&%20%20R%5C%5C%200&%20%201%5C%5C%5Cend%7Bsmallmatrix%7D%5Cbigr))
 wich is more useful to our problem. Each row tells us the expected number of times that node will visit each other node. So if we sum that collumn we get the 
 expected number of steps until we reach 1! Why does this work? Because we adding the expecter number of times we visit non absorbing nodes (including the current node) 
 before reaching an absorbing node. Since our only absorbing node is 1, this tells us the expected number of steps before reaching 1.
 
 ## The code
-
+[code]()
 ## A simple example
 
 ## Prove it?
