@@ -1,6 +1,6 @@
 # Modeling random never increasing function
 
-## Intro
+## Introduction
 There is a counter that chooses a random number between 1 and 1000, and then chooses another random number between 1 and the previously chosen number and continues
 this trend. How long until the counter reaches 0? What if we change the initial value  to be 500 or 20000? Can we find a general solution for any upper bound and
 model the relationship between the current upper boundand the average number of steps to reach 1? Here I show how this problem can be solved using an absorbing 
