@@ -34,11 +34,11 @@ before reaching an absorbing node. Since our only absorbing node is 1, this tell
 ## The code
 The code is a simple function that takes an upper bound as a parameter and returns the expected number of steps before reaching 1.
 
-<img src="assets/code_screenshot.png" width=30% height=30%>
+<img src="assets/code_screenshot.png" width=50% height=50%>
 
 Below is an example using the function to return the expected number of steps from 1000 to reach 1.
 
-<img width="50%" height=50% src="assets/example.png">
+<img width="30%" height=30% src="assets/example.png">
 
 ## Simple example
 In this section I show a simple example for an initial upper bound of 4. Below is the transition matrix. The rows and collumns count down from the upper bound. So
