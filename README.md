@@ -32,11 +32,6 @@ before reaching an absorbing node. Since our only absorbing node is 1, this tell
 
 ## The code
 ![code](assets/code_screenshot.png)
-## A simple example
-
-## Prove it?
-
-## An upper limit to steps?
 
 ## Sources
 [Allan Yashinski, 2021] https://www.math.umd.edu/~immortal/MATH401/book/ch_absorbing_markov_chains.pdf
