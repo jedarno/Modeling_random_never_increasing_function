@@ -15,7 +15,7 @@ This is repeated until the integer 1 is generated. What is the average number of
 ![equation](https://latex.codecogs.com/svg.image?x_%7Bt%7D).
 
 So we want to find the average number of steps from an upperbound ![equation](https://latex.codecogs.com/svg.image?x_t) to 1, 
-when ![equation](https://latex.codecogs.com/svg.image?x_{t&plus;1}&space;=&space;U\{1,x_t\}).
+when ![equation](https://latex.codecogs.com/svg.image?x_%7Bt%20&plus;%201%7D%20=%20U%5C%7B1%20,%20x_t%5C%7D%20).
 
 ## The model
 To solve this problem we can use a markov model with an absorbing state. For an upper bound ![equation](https://latex.codecogs.com/svg.image?x) our transition
