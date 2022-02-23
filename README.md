@@ -38,7 +38,7 @@ The code is a simple function that takes an upper bound as a parameter and retur
 
 Below is an example using the function to return the expected number of steps from 1000 to reach 1.
 
-<img src="assets/example1000.png" width=50% height=50%>
+example1000.png<img width="50%" height=50% alt="image" src="https://user-images.githubusercontent.com/48354753/155317862-b2af6da4-90b6-42d9-91b7-25d3883bde18.png">
 
 ## Simple example
 In this section I show a simple example for an initial upper bound of 4. Below is the transition matrix. The rows and collumns count down from the upper bound. So
