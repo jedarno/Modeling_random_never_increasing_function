@@ -34,7 +34,7 @@ before reaching an absorbing node. Since our only absorbing node is 1, this tell
 ## The code
 The code is a simple function that takes an upper bound as a parameter and returns the expected number of steps before reaching 1.
 
-<img src="assets/code_screenshot.png" width=50% height=50%>
+<img src="assets/code_screenshot.png" width=70% height=70%>
 
 Below is an example using the function to return the expected number of steps from 1000 to reach 1.
 
