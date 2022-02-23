@@ -38,12 +38,21 @@ The code is a simple function that takes an upper bound as a parameter and retur
 ## Simple example
 In this section I show a simple example for an initial upper bound of 4. Below is the transition matrix. The rows and collumns count down from the upper bound. So
 our first row represents transitions from 4, the second transitions from 3 e.c.t. You can see that our initial state has a 1/4 chance of transition to each state, 
-including itself. You can also ssee how each state can't go to a higher state creating a tringulr matrix. Finally note how there is a single absorbing state. 
-![example](assets/P.png = 250x250)
+including itself. You can also ssee how each state can't go to a higher state creating a tringulr matrix. Finally note how there is a single absorbing state.
+
+![example](assets/P.png =250x250)
+
 Our second matrix Q is the probability of transitioning between transient states. It should be clear how these values have been taken from the above transition matrix.
-![example](assets/Q.png = 250x250)
-Below is the the matrix ![equation](https://latex.codecogs.com/svg.image?(I%20-%20Q)%5E%7B-1%7D).The first row of this  collumn is whag is useful to us. Each element in the first row represents the expected number of visits to each transient node from the upper bound. If we sum this row we get the expected number of visits to transient nodes before reaching an absorbing node. This gives us the expected number of visits to transient nodes before reaching an absorbing node. This is equivalent to the number of steps before reaching 1.
-![example](assets/N.png = 250x250)
+
+![example](assets/Q.png =250x250)
+
+Below is the the matrix ![equation](https://latex.codecogs.com/svg.image?(I%20-%20Q)%5E%7B-1%7D).The first row of this  collumn is whag is useful to us. Each
+element in the first row represents the expected number of visits to each transient node from the upper bound. If we sum this row we get the expected number of 
+visits to transient nodes before reaching an absorbing node. This gives us the expected number of visits to transient nodes before reaching an absorbing node. This 
+is equivalent to the number of steps before reaching 1.
+
+![example](assets/N.png =250x250)
+
 Our final answer given by summing the top row is 2.833 .
 ## Sources
 [Allan Yashinski, 2021] https://www.math.umd.edu/~immortal/MATH401/book/ch_absorbing_markov_chains.pdf
