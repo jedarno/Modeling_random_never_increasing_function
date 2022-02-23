@@ -30,12 +30,13 @@ wich is more useful to our problem. Each row tells us the expected number of tim
 expected number of steps until we reach 1! Why does this work? Because we adding the expecter number of times we visit non absorbing nodes (including the current node) 
 before reaching an absorbing node. Since our only absorbing node is 1, this tells us the expected number of steps before reaching 1.
 
-## Simple example
-![example](assets/P)
-![example](assets/Q)
-![example](assets/N)
 ## The code
 ![code](assets/code_screenshot.png)
+
+## Simple example
+![example](assets/P.png)
+![example](assets/Q.png)
+![example](assets/N.png)
 
 ## Sources
 [Allan Yashinski, 2021] https://www.math.umd.edu/~immortal/MATH401/book/ch_absorbing_markov_chains.pdf
