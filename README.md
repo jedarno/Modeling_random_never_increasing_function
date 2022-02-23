@@ -1,4 +1,4 @@
-# Modeling uniformly never increasing function
+# Modeling random never increasing function
 
 ## Intro
 There is a counter that chooses a random number between 1 and 1000, and then chooses another random number between 1 and the previously chosen number and continues
