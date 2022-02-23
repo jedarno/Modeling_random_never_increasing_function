@@ -23,7 +23,7 @@ matrix P will be a ![equation](https://latex.codecogs.com/svg.image?x) by ![equa
 1 will be the only absorbing state in the matrix. The matrix will be triangular because the probability of transition to a higher state is 0 (Our counter is 
 counting down). Thus 1 is an absorbing state as it can only transition to itself. We can call this matrix the canonical matrix and seperate it into four components.
 
-![equation](https://latex.codecogs.com/svg.image?p&space;=&space;\bigl(\begin{smallmatrix}&space;Q&&space;&space;R\\&space;0&&space;&space;1\\\end{smallmatrix}\bigr) )
+![equation]( https://latex.codecogs.com/svg.image?p&space;=&space;\bigl(\begin{smallmatrix}&space;Q&&space;&space;R\\&space;0&&space;&space;1\\\end{smallmatrix}\bigr) )
 
 Where ![equation](https://latex.codecogs.com/svg.image?Q) is the transition matrix between transient states (Transient means not absorbing!). Each value in ![equation](https://latex.codecogs.com/svg.image?Q) is the chance of transitioning from one transient state to another. We can use this matrix to find ![equation]()
 wich is more useful to our problem. Each row tells us the expected number of times that node will visit each other node. So if we sum that collumn we get the 
