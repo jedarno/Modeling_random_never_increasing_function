@@ -58,5 +58,3 @@ Our final answer given by summing the top row is 2.833 .
 [Allan Yashinski, 2021] https://www.math.umd.edu/~immortal/MATH401/book/ch_absorbing_markov_chains.pdf
 
 
-
-<img src="" width=50% height=50%>
