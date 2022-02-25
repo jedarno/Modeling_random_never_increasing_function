@@ -1,5 +1,6 @@
 import numpy as np
 
+#Recursive function, takes upper bound as p[aremeter. Returns expectred number of stps as a float
 def func(x):
 
   if x == 1:
