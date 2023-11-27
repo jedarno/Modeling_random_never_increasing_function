@@ -51,7 +51,7 @@ Our second matrix Q is the probability of transitioning between transient states
 
 <img src="assets/Q.png" width=50% height=50%>
 
-Below is the the matrix ![equation](https://latex.codecogs.com/svg.image?(I%20-%20Q)%5E%7B-1%7D).The first row of this  collumn is whag is useful to us. Each
+Below is the the matrix ![equation](https://latex.codecogs.com/svg.image?(I%20-%20Q)%5E%7B-1%7D).The first row of this  collumn is what is useful to us. Each
 element in the first row represents the expected number of visits to each transient node from the upper bound. If we sum this row we get the expected number of 
 visits to transient nodes before reaching an absorbing node. This gives us the expected number of visits to transient nodes before reaching an absorbing node. This 
 is equivalent to the number of steps before reaching 1.
